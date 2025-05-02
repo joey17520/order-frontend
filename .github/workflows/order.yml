@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name:读取仓库内容
+      - name: 读取仓库内容
       - uses: actions/checkout@v4
 
       - name: 安装依赖和项目打包
